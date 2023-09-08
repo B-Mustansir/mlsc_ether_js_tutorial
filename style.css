@@ -1,0 +1,80 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section styling */
+section {
+    margin-bottom: 1.5rem;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 1.5rem;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input styling */
+input[type="number"] {
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 1.5rem;
+}
+
+/* Center text within sections */
+h2, p {
+    text-align: center;
+}
+
+/* Balance section specific styling */
+#balance {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+}

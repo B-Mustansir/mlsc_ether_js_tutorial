@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Dapp</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ether js -->
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript" ></script>
+</head>
+<body>
+
+    <header>
+        <h1>Basic Dapp</h1>
+    </header>
+
+    <main>
+        
+        <section class="balance-section">
+            <h2>Your Balance:</h2>
+            <p id="balance">Loading...</p>
+            <hr>
+        </section>
+
+        <section class="deposit-section">
+            <h2>Deposit Ether</h2>
+            <input type="number" id="depositAmount" placeholder="Amount (Matic)">
+            <button id="depositButton" onclick="deposit();">Deposit</button>
+        </section>
+
+        <section class="withdraw-section">
+            <h2>Withdraw Ether</h2>
+            <input type="number" id="withdrawAmount" placeholder="Amount (Matic)">
+            <button id="withdrawButton" onclick="withdraw();">Withdraw</button>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
